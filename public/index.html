@@ -1,0 +1,61 @@
+<html lang="es" ng-app="cuevaApp">
+
+<head>
+    <meta charset="utf-8"/>
+
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="bower_components/stylesheet/index.css" rel="stylesheet">
+    <link href="bower_components/stylesheet/cueva.css" rel="stylesheet">
+</head>
+
+<body ng-controller="CuevaController">
+	<div id="cuevawrap">
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+			</div>
+			<p id="example"></p>
+		</nav>
+		<div class="container-fluid" id="main">
+			<div class="row">
+				<div class="cueva-fondo col-xs-12 col-md-6 col-md-offset-3">
+					<div id="cueva-pista">
+						<div id="acertijo-texto" ng-if="isTexto">{{acertijo}}</div>
+						<img id="acertijo-imagen" ng-if="isPic" ng-src="{{acertijoImagenUrl}}"/>
+						<audio controls id="acertijo-audio" ng-if="isAudio">
+							<source ng-src="{{acertijoAudioUrl}}" type="audio/mpeg">
+						</audio>
+					</div>
+					<form ng-submit="compruebaClave()" id="cueva-form">
+						<div class="form-group">
+							<!--<label for="exampleInputEmail1">{{acertijo}}</label>-->
+							<input type="text" class="form-control" ng-model="claveIntroducida" id="exampleInputEmail1" placeholder="Clave" autocomplete="off">
+							<button type="submit" class="btn btn-default">Adelante</button>
+						</div>
+					</form>
+					<div class="respuesta">{{resultado}}</div>
+				</div>
+			</div>
+		</div>
+    </div>
+    <footer class="row-footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6 col-sm-offset-3">
+                    <p>Proyecto del usuario de Pirateking LasGafasDeKuro</p>
+                    <p>Esta obra utiliza elementos de Pirateking, diseño original de <strong>Xenogearsifm</strong>.</p>
+                    <p>La única intención de este proyecto es la de servir como entretenimiento.</p>
+                    <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/es/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/3.0/es/88x31.png" /></a><br />Este obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/es/">licencia de Creative Commons Reconocimiento-NoComercial-CompartirIgual 3.0 España</a>.
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="javascripts/app.js"></script>
+</body>
+
+</html>

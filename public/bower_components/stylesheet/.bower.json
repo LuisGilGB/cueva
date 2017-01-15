@@ -1,0 +1,15 @@
+{
+  "name": "stylesheet",
+  "_cacheHeaders": {
+    "ETag": "\"561710-3c59-51a8f550b4240\"",
+    "Last-Modified": "Sat, 11 Jul 2015 01:23:13 GMT",
+    "Content-Length": "15449",
+    "Content-Type": "text/css"
+  },
+  "_release": "e-tag:561710-3c",
+  "main": "index.css",
+  "_source": "http://www.pirateking.es/foro/styles/proking/theme/stylesheet.css?assets_version=43",
+  "_target": "*",
+  "_originalSource": "http://www.pirateking.es/foro/styles/proking/theme/stylesheet.css?assets_version=43",
+  "_direct": true
+}

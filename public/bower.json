@@ -1,0 +1,27 @@
+{
+  "name": "Cueva GdB V",
+  "authors": [
+    "Luis Gil Gutiérrez de la Barreda <luis.gilgb@gmail.com>"
+  ],
+  "description": "La cueva para la V Guerra de Bandas",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "cueva"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.0",
+    "bootstrap": "^3.3.6",
+    "font-awesome": "^4.5.0",
+    "angular": "^1.4.9"
+  }
+}

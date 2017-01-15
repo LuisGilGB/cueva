@@ -1,0 +1,73 @@
+[{
+	"nombreSala": "Xenogearsifm",
+	"tipoPregunta": "texto",
+	"pregunta": "Primer color de banda por orden alfabético",
+	"respuestas": [{
+		"textoRespuesta": "Amarillo",
+		"nombreDestino": "H-Samba"
+	}]
+}, {
+	"nombreSala": "H-Samba",
+	"tipoPregunta": "texto",
+	"pregunta": "Le hace la competencia a H-Samba",
+	"respuestas": [{
+		"textoRespuesta": "Zirika",
+		"nombreDestino": "Zirika"
+	}, {
+		"textoRespuesta": "H-Bachata",
+		"nombreDestino": "ciberpiranha"
+	}]
+}, {
+	"nombreSala": "Zirika",
+	"tipoPregunta": "texto",
+	"pregunta": "GGRRRRRJJJJ... PPFF!!",
+	"respuestas": [{
+		"textoRespuesta": "Citan",
+		"nombreDestino": "mod"
+	}]
+}, {
+	"nombreSala": "ciberpiranha",
+	"tipoPregunta": "texto",
+	"pregunta": "Ídolo del Rey de la segunda guerra",
+	"respuestas": [{
+		"textoRespuesta": "Bud Spencer",
+		"nombreDestino": "Peliazul"
+	}, {
+		"textoRespuesta": "Terence Hill",
+		"nombreDestino": "Xenogearsifm"
+	}]
+}, {
+	"nombreSala": "Peliazul",
+	"tipoPregunta": "texto",
+	"pregunta": "¿A quién da mucho trabajo nuestra multicuentas favorita?",
+	"respuestas": [{
+		"textoRespuesta": "Ramsus",
+		"nombreDestino": "mod"
+	}, {
+		"textoRespuesta": "Terreis",
+		"nombreDestino": "mod"
+	}, {
+		"textoRespuesta": "Polizonte Nack",
+		"nombreDestino": "mod"
+	}, {
+		"textoRespuesta": "Gia Secando",
+		"nombreDestino": "mod"
+	}, {
+		"textoRespuesta": "redon",
+		"nombreDestino": "mod"
+	}, {
+		"textoRespuesta": "Likard",
+		"nombreDestino": "mod"
+	}, {
+		"textoRespuesta": "nico d'robin",
+		"nombreDestino": "mod"
+	}, {
+		"textoRespuesta": "kitakaze",
+		"nombreDestino": "mod"
+	}]
+}, {
+	"nombreSala": "mod",
+	"tipoPregunta": "final",
+	"pregunta": "¿Creías que esto tendría final feliz? ¡Pues no! ¡Has sido baneado!",
+	"respuestas": []
+}]

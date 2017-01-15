@@ -1,0 +1,54 @@
+html, body {
+	height: 100%
+}
+
+.cueva-fondo {
+	background-color: saddlebrown;
+	padding: 15px;
+	color: white;
+	text-align: center;
+	font-size: 32;
+}
+
+.cueva-fondo input {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 32;
+	height: 50;
+}
+
+.cueva-fondo button {
+	margin-top: 20;
+	font-size: 32;
+}
+
+nav {
+	height: 60px;
+}
+
+#cuevawrap {
+	min-height: 100%;
+}
+
+#main {
+	padding-top: 60px;
+	overflow: auto;
+	padding-bottom: 360px;
+}
+
+img {
+	max-width: 90%;
+}
+
+footer {
+	position: relative;
+	margin-top: -300px; /* negative value of footer height */
+	height: 300px;
+	clear: both;
+	padding-top: 20px;
+	/*position: absolute;
+	bottom: 0;
+	width: 100%;*/
+	background-color: whitesmoke;
+	text-align: center;
+}

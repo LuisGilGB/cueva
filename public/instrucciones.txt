@@ -1,0 +1,9 @@
+Instrucciones de uso:
+
+- Descargar el zip.
+
+- Extraer en una carpeta vacía, que no os estorbe con otras cosas.
+
+- Ejecutar el archivo index.html (debe abrirse con un navegador, en teoría es compatible con cualquiera que soporte HTML5; pero por ahora sólo lo he testeado en Chrome).
+
+- Es una cueva, a estas alturas creo que ya sabes cómo se juega.
