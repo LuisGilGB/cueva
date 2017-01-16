@@ -12,7 +12,7 @@ var cuevaRouter = require('./routes/cuevaRouter');
 var app = express();
 
 var mongoose = require('mongoose');
-var dbUrl = 'mongodb://192.168.0.163:27017/cueva';
+var dbUrl = 'mongodb://172.30.206.227:27017/cueva';
 mongoose.connect(dbUrl);
 
 var db = mongoose.connection;
