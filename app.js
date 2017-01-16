@@ -21,7 +21,7 @@ db.once('open', function () {
 	console.log('Conectado correctamente con el servidor');
 });
 
-//app.listen(8080);
+app.listen(8080);
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
