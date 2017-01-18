@@ -13,6 +13,13 @@ var app = express();
 
 var mongoose = require('mongoose');
 var dbUrl = process.env.OPENSHIFT_MONGODB_DB_URL+process.env.OPENSHIFT_APP_NAME;
+console.log('process.env.OPENSHIFT_MONGODB_DB_USERNAME = ' + process.env.OPENSHIFT_MONGODB_DB_USERNAME);
+console.log('process.env.OPENSHIFT_MONGODB_DB_PASSWORD = ' + process.env.OPENSHIFT_MONGODB_DB_PASSWORD);
+console.log('process.env.OPENSHIFT_MONGODB_DB_HOST = ' + process.env.OPENSHIFT_MONGODB_DB_HOST);
+console.log('process.env.OPENSHIFT_MONGODB_DB_PORT = ' + process.env.OPENSHIFT_MONGODB_DB_PORT);
+console.log('process.env.OPENSHIFT_MONGODB_DB_URL = ' + process.env.OPENSHIFT_MONGODB_DB_URL);
+console.log('process.env.OPENSHIFT_APP_NAME = ' + process.env.OPENSHIFT_APP_NAME);
+console.log('dbUrl = ' + dbUrl);
 mongoose.connect(dbUrl);
 
 var db = mongoose.connection;
