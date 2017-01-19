@@ -2,9 +2,9 @@
   "name": "cueva",
   "version": "0.1.0",
   "private": true,
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "assert": "^1.4.1",
