@@ -12,7 +12,7 @@ var cuevaRouter = require('./routes/cuevaRouter');
 var app = express();
 
 var mongoose = require('mongoose');
-var dbUrl = process.env.OPENSHIFT_MONGODB_DB_URL+process.env.OPENSHIFT_APP_NAME;
+var dbUrl = process.env.OPENSHIFT_MONGODB_DB_URL+process.env.OPENSHIFT_APP_NAME || 'user:user@127.0.0.1:27017/cueva';
 console.log('process.env.OPENSHIFT_MONGODB_DB_USERNAME = ' + process.env.OPENSHIFT_MONGODB_DB_USERNAME);
 console.log('process.env.OPENSHIFT_MONGODB_DB_PASSWORD = ' + process.env.OPENSHIFT_MONGODB_DB_PASSWORD);
 console.log('process.env.OPENSHIFT_MONGODB_DB_HOST = ' + process.env.OPENSHIFT_MONGODB_DB_HOST);
