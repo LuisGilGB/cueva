@@ -1,5 +1,7 @@
 var express = require('express');
 var path = require('path');
+var fs = require('fs');
+var eps = require('ejs');
 var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
@@ -12,7 +14,15 @@ var cuevaRouter = require('./routes/cuevaRouter');
 var app = express();
 
 var mongoose = require('mongoose');
-var dbUrl = process.env.OPENSHIFT_MONGODB_DB_URL+process.env.OPENSHIFT_APP_NAME || 'user:user@127.0.0.1:27017/cueva';
+
+var mongoURL = process.env.OPENSHIFT_MONGODB_DB_URL || process.env.MONGO_URL,
+    mongoURLLabel = "";
+
+console.log('mongoURL: ' + mongoURL);
+
+logger.log('info', process.env);
+
+var dbUrl = process.env.OPENSHIFT_MONGODB_DB_URL+process.env.OPENSHIFT_APP_NAME || 'user:user@mongodb://127.0.0.1:27017/cueva';
 console.log('process.env.OPENSHIFT_MONGODB_DB_USERNAME = ' + process.env.OPENSHIFT_MONGODB_DB_USERNAME);
 console.log('process.env.OPENSHIFT_MONGODB_DB_PASSWORD = ' + process.env.OPENSHIFT_MONGODB_DB_PASSWORD);
 console.log('process.env.OPENSHIFT_MONGODB_DB_HOST = ' + process.env.OPENSHIFT_MONGODB_DB_HOST);
@@ -34,9 +44,11 @@ app.listen(8080);
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 
+app.engine('html', require('ejs').renderFile);
+
 // uncomment after placing your favicon in /public
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
-app.use(logger('dev'));
+app.use(logger('combined'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
