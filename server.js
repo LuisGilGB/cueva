@@ -19,7 +19,8 @@ var mongoURL = process.env.OPENSHIFT_MONGODB_DB_URL || process.env.MONGO_URL,
 
 console.log('mongoURL: ' + mongoURL);
 
-logger.log('info', process.env);
+console.log(process.env);
+console.log(JSON.stringify(process.env));
 
 var dbUrl = process.env.OPENSHIFT_MONGODB_DB_URL+process.env.OPENSHIFT_APP_NAME || 'user:user@mongodb://127.0.0.1:27017/cueva';
 console.log('process.env.OPENSHIFT_MONGODB_DB_USERNAME = ' + process.env.OPENSHIFT_MONGODB_DB_USERNAME);
