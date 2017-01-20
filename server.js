@@ -30,7 +30,7 @@ console.log('process.env.OPENSHIFT_MONGODB_DB_PORT = ' + process.env.OPENSHIFT_M
 console.log('process.env.OPENSHIFT_MONGODB_DB_URL = ' + process.env.OPENSHIFT_MONGODB_DB_URL);
 console.log('process.env.OPENSHIFT_APP_NAME = ' + process.env.OPENSHIFT_APP_NAME);
 
-dbUrl = 'mongodb://user:user@' + process.env.MONGODB_PORT + '/cueva';
+dbUrl = 'mongodb://user:user@172.30.92.203:27017/cueva';
 console.log('dbUrl = ' + dbUrl);
 mongoose.connect(dbUrl);
 
