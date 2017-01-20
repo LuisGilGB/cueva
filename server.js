@@ -43,6 +43,7 @@ db.once('open', function () {
 app.listen(8080);
 
 // view engine setup
+app.set('view engine', 'jade');
 app.set('views', path.join(__dirname, 'views'));
 
 // uncomment after placing your favicon in /public
