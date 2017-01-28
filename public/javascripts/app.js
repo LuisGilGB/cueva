@@ -99,10 +99,15 @@ angular.module('cuevaApp', [])
 		});
 		
 		$scope.compruebaClave = function () {
+			var serviceUrl;
+			
+			$scope.claveIntroducida ?
+				serviceUrl = 'cueva/' + $scope.currentAcertijo._id + '/comprobarrespuesta/' + $scope.claveIntroducida :
+				serviceUrl = 'cueva/' + $scope.currentAcertijo._id + '/comprobarrespuesta/noquierovaciosquierojajas'
 			
 			$http({
 				method: 'GET',
-				url: 'cueva/' + $scope.currentAcertijo._id + '/comprobarrespuesta/' + $scope.claveIntroducida
+				url: service
 			}).then(function successCallback (response) {
 				if (response.data._id) {
 					$scope.currentAcertijo = response.data;
