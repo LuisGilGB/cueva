@@ -54,7 +54,7 @@ angular.module('cuevaApp', [])
 		}];
 		
 		$scope.setNewAcertijo = function (acertijo) {
-			if (acertijo.tipoPregunta === 'texto' || 'final' || 'siguiente') {
+			if (acertijo.tipoPregunta === 'texto' || acertijo.tipoPregunta === 'final' || acertijo.tipoPregunta === 'siguiente') {
 				$scope.isTexto = true;
 				$scope.isPic = false;
 				$scope.isAudio = false;
