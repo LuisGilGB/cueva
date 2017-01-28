@@ -94,16 +94,8 @@ cuevaRouter.route('/:salaId/comprobarrespuesta/:respuesta').get(function (req, r
 	Salas.findById(req.params.salaId, function (err, sala) {
 		//if (err) throw err;
 		var respuesta = req.params.respuesta;
-		for (i = 0; i < sala.respuestas.length; i++) {
-			if (respuesta.toUpperCase() === sala.respuestas[i].textoRespuesta.toUpperCase()) {
-				respuestaCorrecta = sala.respuestas[i];
-				break;
-			}
-		}
-		if (!respuestaCorrecta) {
-			return res.json(mensajeRespuestaIncorrecta);
-		} else {
-			Salas.findOne({ nombreSala: respuestaCorrecta.nombreDestino }, function (err, siguienteSala) {
+		if (sala.tipoPregunta === 'siguiente') {
+			Salas.findOne({ nombreSala: sala.respuestas[0].nombreDestino }, function (err, siguienteSala) {
 				var salaTrucada = {
 					_id: siguienteSala._id,
 					nombreSala: siguienteSala.nombreSala,
@@ -112,6 +104,27 @@ cuevaRouter.route('/:salaId/comprobarrespuesta/:respuesta').get(function (req, r
 				}
 				return res.json(salaTrucada);
 			});
+		}
+		else {
+			for (i = 0; i < sala.respuestas.length; i++) {
+				if (respuesta.toUpperCase() === sala.respuestas[i].textoRespuesta.toUpperCase()) {
+					respuestaCorrecta = sala.respuestas[i];
+					break;
+				}
+			}
+			if (!respuestaCorrecta) {
+				return res.json(mensajeRespuestaIncorrecta);
+			} else {
+				Salas.findOne({ nombreSala: respuestaCorrecta.nombreDestino }, function (err, siguienteSala) {
+					var salaTrucada = {
+						_id: siguienteSala._id,
+						nombreSala: siguienteSala.nombreSala,
+						tipoPregunta: siguienteSala.tipoPregunta,
+						pregunta: siguienteSala.pregunta
+					}
+					return res.json(salaTrucada);
+				});
+			}
 		}
 	});
 });

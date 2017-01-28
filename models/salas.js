@@ -3,8 +3,7 @@ var Schema = mongoose.Schema;
 
 var respuestaSchema = new Schema({
 	textoRespuesta: {
-		type: String,
-		required: true
+		type: String
 	},
 	nombreDestino: {
 		type: String,

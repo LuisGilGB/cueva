@@ -54,7 +54,7 @@ angular.module('cuevaApp', [])
 		}];
 		
 		$scope.setNewAcertijo = function (acertijo) {
-			if (acertijo.tipoPregunta === 'texto' || 'final') {
+			if (acertijo.tipoPregunta === 'texto' || 'final' || 'siguiente') {
 				$scope.isTexto = true;
 				$scope.isPic = false;
 				$scope.isAudio = false;
@@ -86,11 +86,8 @@ angular.module('cuevaApp', [])
 		
 		$scope.cleanAll = function () {
 			angular.element('#cueva-form').remove();
-			//angular.element('#cueva-pista').remove();
 		}
 		
-		//$scope.setNewAcertijo($scope.acertijos[0]);
-		//$scope.setNewAcertijo($scope.primerAcertijo);
 		$http({
 			method: 'GET',
 			url: '/cueva/empezarcueva'
@@ -102,24 +99,6 @@ angular.module('cuevaApp', [])
 		});
 		
 		$scope.compruebaClave = function () {
-			/*var acertijos = $scope.acertijos,
-				index = $scope.currentIndex,
-				respuesta = acertijos[index].respuesta;
-			
-			if ($scope.claveIntroducida.toUpperCase() === respuesta.toUpperCase()) {
-				index++;
-				if (index >= acertijos.length) {
-					$scope.cleanAll();
-					$scope.resultado = 'Enhorabuena, has salido de la cueva';
-				} else {
-					$scope.resultado = '';
-					$scope.setNewAcertijo(acertijos[index]);
-					$scope.currentIndex = index;
-				}
-			} else {
-				$scope.resultado = 'Inténtelo de nuevo';
-			}
-			$scope.claveIntroducida = '';*/
 			
 			$http({
 				method: 'GET',
