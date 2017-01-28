@@ -107,7 +107,7 @@ angular.module('cuevaApp', [])
 			
 			$http({
 				method: 'GET',
-				url: service
+				url: serviceUrl
 			}).then(function successCallback (response) {
 				if (response.data._id) {
 					$scope.currentAcertijo = response.data;
