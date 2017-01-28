@@ -10,6 +10,7 @@ angular.module('cuevaApp', [])
 		$scope.isTexto = false;
 		$scope.isPic = false;
 		$scope.isAudio = false;
+		$scope.isVideo = false;
 		
 		$scope.currentIndex = 0;
 		
@@ -58,6 +59,7 @@ angular.module('cuevaApp', [])
 				$scope.isTexto = true;
 				$scope.isPic = false;
 				$scope.isAudio = false;
+				$scope.isVideo = false;
 				$scope.acertijo = acertijo.pregunta;
 				if (acertijo.tipoPregunta === 'final') {
 					$scope.cleanAll();
@@ -67,12 +69,20 @@ angular.module('cuevaApp', [])
 				$scope.isTexto = false;
 				$scope.isPic = true;
 				$scope.isAudio = false;
+				$scope.isVideo = false;
 				$scope.acertijoImagenUrl = acertijo.pregunta;
 			} else if (acertijo.tipoPregunta === 'audio') {
 				$scope.isTexto = false;
 				$scope.isPic = false;
 				$scope.isAudio = true;
+				$scope.isVideo = false;
 				$scope.acertijoAudioUrl = acertijo.pregunta;
+			} else if (acertijo.tipoPregunta === 'video') {
+				$scope.isTexto = false;
+				$scope.isPic = false;
+				$scope.isAudio = false;
+				$scope.isVideo = true;
+				$scope.acertijoIdYoutube = acertijo.pregunta;
 			} else {
 				$scope.isTexto = false;
 				$scope.isPic = false;
