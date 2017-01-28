@@ -27,7 +27,7 @@
 							<source ng-src="{{acertijoAudioUrl}}" type="audio/mpeg">
 						</audio>-->
 						<div id="acertijo-audio" ng-if="isAudio">
-							<object width="148" height="44"><param name="movie" value="{{acertijoAudioUrl}}"></param><param name="wmode" value="transparent"></param><embed src="{{acertijoAudioUrl}}" width="148" height="44" wmode="transparent" type="application/x-shockwave-flash"></embed></object>
+							<object width="148" height="44"><param name="movie" value="{{acertijoAudioUrl}}"></param><param name="wmode" value="transparent"></param><embed ng-src="{{acertijoAudioUrl}}" width="148" height="44" wmode="transparent" type="application/x-shockwave-flash"></embed></object>
 						</div>
 					</div>
 					<form ng-submit="compruebaClave()" id="cueva-form">
