@@ -2,6 +2,10 @@
 
 angular.module('cuevaApp', [])
 
+	.config(function($sceProvider){
+		$sceProvider.enabled(false);
+	})
+
     .controller('CuevaController', ['$scope', '$http', function($scope, $http) {
 		$scope.claveIntroducida;
 		$scope.claveSolicitada;
