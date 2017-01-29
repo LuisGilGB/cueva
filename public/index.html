@@ -28,7 +28,8 @@
 						</audio>-->
 						<div id="acertijo-audio" ng-if="isAudio">
 							<!--<object width="148" height="44"><param name="movie" value="{{acertijoAudioUrl}}"></param><param name="wmode" value="transparent"></param><embed ng-src="{{acertijoAudioUrl}}" width="148" height="44" wmode="transparent" type="application/x-shockwave-flash"></embed></object>-->
-							<iframe width="560" height="315" ng-src="{{acertijoAudioUrl}}"></iframe>
+							<!--<iframe width="560" height="315" ng-src="{{acertijoAudioUrl}}"></iframe>-->
+							<div ng-bind-html='acertijoAudioUrl'></div>
 						</div>
 						<div id="acertijo-video" ng-if="isVideo">
 							<iframe width="560" height="315" ng-src="{{acertijoVideoUrl}}" frameborder="0" allowfullscreen></iframe>

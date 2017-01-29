@@ -80,7 +80,8 @@ angular.module('cuevaApp', [])
 				$scope.isPic = false;
 				$scope.isAudio = true;
 				$scope.isVideo = false;
-				$scope.acertijoAudioUrl = acertijo.pregunta;
+				//$scope.acertijoAudioUrl = acertijo.pregunta;
+				$scope.acertijoAudioUrl = '<object width="148" height="44"><param name="movie" value="http://vocaroo.com/player.swf?playMediaID=' + acertijo.pregunta + '&autoplay=0"></param><param name="wmode" value="transparent"></param><embed src="http://vocaroo.com/player.swf?playMediaID=' + acertijo.pregunta + '&autoplay=0" width="148" height="44" wmode="transparent" type="application/x-shockwave-flash"></embed></object>'
 			} else if (acertijo.tipoPregunta === 'video') {
 				$scope.isTexto = false;
 				$scope.isPic = false;
