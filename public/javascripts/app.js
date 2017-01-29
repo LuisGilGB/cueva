@@ -1,12 +1,8 @@
 'use strict'
 
-angular.module('cuevaApp', [])
+angular.module('cuevaApp', ['ngSanitize'])
 
-	.config(function($sceProvider){
-		$sceProvider.enabled(false);
-	})
-
-    .controller('CuevaController', ['$scope', '$http', function($scope, $http) {
+    .controller('CuevaController', ['$scope', '$http', '$sce', function($scope, $http, $sce) {
 		$scope.claveIntroducida;
 		$scope.claveSolicitada;
 		$scope.currentAcertijo;
@@ -59,6 +55,7 @@ angular.module('cuevaApp', [])
 		}];
 		
 		$scope.setNewAcertijo = function (acertijo) {
+			var urlAuxiliar = '';
 			if (acertijo.tipoPregunta === 'texto' || acertijo.tipoPregunta === 'final' || acertijo.tipoPregunta === 'siguiente') {
 				$scope.isTexto = true;
 				$scope.isPic = false;
@@ -81,13 +78,17 @@ angular.module('cuevaApp', [])
 				$scope.isAudio = true;
 				$scope.isVideo = false;
 				//$scope.acertijoAudioUrl = acertijo.pregunta;
-				$scope.acertijoAudioUrl = '<object width="148" height="44"><param name="movie" value="http://vocaroo.com/player.swf?playMediaID=' + acertijo.pregunta + '&autoplay=0"></param><param name="wmode" value="transparent"></param><embed src="http://vocaroo.com/player.swf?playMediaID=' + acertijo.pregunta + '&autoplay=0" width="148" height="44" wmode="transparent" type="application/x-shockwave-flash"></embed></object>'
+				urlAuxiliar = '<object width="148" height="44"><param name="movie" value="http://vocaroo.com/player.swf?playMediaID=' + acertijo.pregunta + '&autoplay=0"></param><param name="wmode" value="transparent"></param><embed src="http://vocaroo.com/player.swf?playMediaID=' + acertijo.pregunta + '&autoplay=0" width="148" height="44" wmode="transparent" type="application/x-shockwave-flash"></embed></object>';
+				
+				$scope.acertijoAudioUrl = $sce.trustAsHtml(urlAuxiliar);
 			} else if (acertijo.tipoPregunta === 'video') {
 				$scope.isTexto = false;
 				$scope.isPic = false;
 				$scope.isAudio = false;
 				$scope.isVideo = true;
-				$scope.acertijoVideoUrl = 'https://www.youtube.com/embed/' + acertijo.pregunta;
+				urlAuxiliar = '<iframe width="560" height="315" src="https://www.youtube.com/embed/' + acertijo.pregunta + '" frameborder="0" allowfullscreen></iframe>';
+				
+				$scope.acertijoVideoUrl = $sce.trustAsHtml(urlAuxiliar);
 			} else {
 				$scope.isTexto = false;
 				$scope.isPic = false;
