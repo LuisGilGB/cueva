@@ -82,7 +82,7 @@ angular.module('cuevaApp', [])
 				$scope.isPic = false;
 				$scope.isAudio = false;
 				$scope.isVideo = true;
-				$scope.acertijoIdYoutube = acertijo.pregunta;
+				$scope.acertijoVideoUrl = 'https://www.youtube.com/embed/' + acertijo.pregunta;
 			} else {
 				$scope.isTexto = false;
 				$scope.isPic = false;
