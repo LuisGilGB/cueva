@@ -6,11 +6,13 @@ angular.module('cuevaApp', ['ngSanitize'])
 		$scope.claveIntroducida;
 		$scope.claveSolicitada;
 		$scope.currentAcertijo;
+		$scope.nombreSala = '';
 		$scope.resultado = '';
 		$scope.isTexto = false;
 		$scope.isPic = false;
 		$scope.isAudio = false;
 		$scope.isVideo = false;
+		$scope.isIframe = false;
 		
 		$scope.currentIndex = 0;
 		
@@ -56,11 +58,13 @@ angular.module('cuevaApp', ['ngSanitize'])
 		
 		$scope.setNewAcertijo = function (acertijo) {
 			var urlAuxiliar = '';
+			$scope.nombreSala = acertijo.nombreSala;
 			if (acertijo.tipoPregunta === 'texto' || acertijo.tipoPregunta === 'final' || acertijo.tipoPregunta === 'siguiente') {
 				$scope.isTexto = true;
 				$scope.isPic = false;
 				$scope.isAudio = false;
 				$scope.isVideo = false;
+				$scope.isIframe = false;
 				$scope.acertijo = acertijo.pregunta;
 				if (acertijo.tipoPregunta === 'final') {
 					$scope.cleanAll();
@@ -71,12 +75,14 @@ angular.module('cuevaApp', ['ngSanitize'])
 				$scope.isPic = true;
 				$scope.isAudio = false;
 				$scope.isVideo = false;
+				$scope.isIframe = false;
 				$scope.acertijoImagenUrl = acertijo.pregunta;
 			} else if (acertijo.tipoPregunta === 'audio') {
 				$scope.isTexto = false;
 				$scope.isPic = false;
 				$scope.isAudio = true;
 				$scope.isVideo = false;
+				$scope.isIframe = false;
 				//$scope.acertijoAudioUrl = acertijo.pregunta;
 				urlAuxiliar = '<object width="148" height="44"><param name="movie" value="http://vocaroo.com/player.swf?playMediaID=' + acertijo.pregunta + '&autoplay=0"></param><param name="wmode" value="transparent"></param><embed src="http://vocaroo.com/player.swf?playMediaID=' + acertijo.pregunta + '&autoplay=0" width="148" height="44" wmode="transparent" type="application/x-shockwave-flash"></embed></object>';
 				
@@ -86,13 +92,25 @@ angular.module('cuevaApp', ['ngSanitize'])
 				$scope.isPic = false;
 				$scope.isAudio = false;
 				$scope.isVideo = true;
+				$scope.isIframe = false;
 				urlAuxiliar = '<iframe width="560" height="315" src="https://www.youtube.com/embed/' + acertijo.pregunta + '" frameborder="0" allowfullscreen></iframe>';
 				
 				$scope.acertijoVideoUrl = $sce.trustAsHtml(urlAuxiliar);
+			} else if (acertijo.tipoPregunta === 'picross') {
+				$scope.isTexto = false;
+				$scope.isPic = false;
+				$scope.isAudio = false;
+				$scope.isVideo = false;
+				$scope.isIframe = true;
+				urlAuxiliar = '<iframe width="750" height="750" src="' + acertijo.pregunta + '"></iframe>';
+				
+				$scope.acertijoIframeUrl = $sce.trustAsHtml(urlAuxiliar);
 			} else {
 				$scope.isTexto = false;
 				$scope.isPic = false;
 				$scope.isAudio = false;
+				$scope.isVideo = false;
+				$scope.isIframe = false;
 			}
 		}
 		
