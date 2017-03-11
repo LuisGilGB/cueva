@@ -39,9 +39,15 @@
 							<!--<iframe width="560" height="315" ng-src="{{acertijoVideoUrl}}" frameborder="0" allowfullscreen></iframe>-->
 							<div ng-bind-html='acertijoVideoUrl'></div>
 						</div>
-						<div id="acertijo-video" ng-if="isIframe">
+						<div id="acertijo-iframe" ng-if="isIframe">
 							<!--<iframe width="560" height="315" ng-src="{{acertijoVideoUrl}}" frameborder="0" allowfullscreen></iframe>-->
 							<div ng-bind-html='acertijoIframeUrl'></div>
+						</div>
+						<div id="acertijo-puzzle" ng-if="isPuzzle">
+							<div ng-bind-html='acertijoPuzzleUrl'></div>
+						</div>
+						<div id="acertijo-bombay" ng-if="isBombay">
+							<div ng-bind-html='acertijoBombayUrl'></div>
 						</div>
 					</div>
 					<form ng-submit="compruebaClave()" id="cueva-form">

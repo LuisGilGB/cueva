@@ -13,6 +13,8 @@ angular.module('cuevaApp', ['ngSanitize'])
 		$scope.isAudio = false;
 		$scope.isVideo = false;
 		$scope.isIframe = false;
+		$scope.isPuzzle = false;
+		$scope.isBombay = false;
 		
 		$scope.currentIndex = 0;
 		
@@ -65,6 +67,8 @@ angular.module('cuevaApp', ['ngSanitize'])
 				$scope.isAudio = false;
 				$scope.isVideo = false;
 				$scope.isIframe = false;
+				$scope.isPuzzle = false;
+				$scope.isBombay = false;
 				$scope.acertijo = acertijo.pregunta;
 				if (acertijo.tipoPregunta === 'final') {
 					$scope.cleanAll();
@@ -76,6 +80,8 @@ angular.module('cuevaApp', ['ngSanitize'])
 				$scope.isAudio = false;
 				$scope.isVideo = false;
 				$scope.isIframe = false;
+				$scope.isPuzzle = false;
+				$scope.isBombay = false;
 				$scope.acertijoImagenUrl = acertijo.pregunta;
 			} else if (acertijo.tipoPregunta === 'audio') {
 				$scope.isTexto = false;
@@ -83,6 +89,8 @@ angular.module('cuevaApp', ['ngSanitize'])
 				$scope.isAudio = true;
 				$scope.isVideo = false;
 				$scope.isIframe = false;
+				$scope.isPuzzle = false;
+				$scope.isBombay = false;
 				//$scope.acertijoAudioUrl = acertijo.pregunta;
 				urlAuxiliar = '<object width="148" height="44"><param name="movie" value="http://vocaroo.com/player.swf?playMediaID=' + acertijo.pregunta + '&autoplay=0"></param><param name="wmode" value="transparent"></param><embed src="http://vocaroo.com/player.swf?playMediaID=' + acertijo.pregunta + '&autoplay=0" width="148" height="44" wmode="transparent" type="application/x-shockwave-flash"></embed></object>';
 				
@@ -93,6 +101,8 @@ angular.module('cuevaApp', ['ngSanitize'])
 				$scope.isAudio = false;
 				$scope.isVideo = true;
 				$scope.isIframe = false;
+				$scope.isPuzzle = false;
+				$scope.isBombay = false;
 				urlAuxiliar = '<iframe width="560" height="315" src="https://www.youtube.com/embed/' + acertijo.pregunta + '" frameborder="0" allowfullscreen></iframe>';
 				
 				$scope.acertijoVideoUrl = $sce.trustAsHtml(urlAuxiliar);
@@ -102,15 +112,40 @@ angular.module('cuevaApp', ['ngSanitize'])
 				$scope.isAudio = false;
 				$scope.isVideo = false;
 				$scope.isIframe = true;
+				$scope.isPuzzle = false;
+				$scope.isBombay = false;
 				urlAuxiliar = '<iframe width="750" height="750" src="' + acertijo.pregunta + '"></iframe>';
 				
 				$scope.acertijoIframeUrl = $sce.trustAsHtml(urlAuxiliar);
+			} else if (acertijo.tipoPregunta === 'puzzle') {
+				$scope.isTexto = false;
+				$scope.isPic = false;
+				$scope.isAudio = false;
+				$scope.isVideo = false;
+				$scope.isIframe = false;
+				$scope.isPuzzle = true;
+				$scope.isBombay = false;
+				urlAuxiliar = '<br><center><a href="http://www.flash-gear.com/index.php?puz"><img src="http://www.flash-gear.com/puz1.gif"></a><br><EMBED allowScriptAccess="always" allowNetworking="all" src="' + acertijo.pregunta + '" quality=high wmode=transparent scale=noscale salign=LT bgcolor="FFFFFF" WIDTH="510" HEIGHT="750" NAME="puz351011" ALIGN="" TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer" /><BR><a href="http://www.flash-gear.com/index.php?puz"><img src="http://www.flash-gear.com/puz2.gif"><br><b><font face="Verdana"><h5>provided by flash-gear.com</h5></font></b></a><br></center><br>';
+				
+				$scope.acertijoPuzzleUrl = $sce.trustAsHtml(urlAuxiliar);
+			} else if (acertijo.tipoPregunta === 'bombay') {
+				$scope.isTexto = false;
+				$scope.isPic = false;
+				$scope.isAudio = false;
+				$scope.isVideo = false;
+				$scope.isIframe = false;
+				$scope.isPuzzle = false;
+				$scope.isBombay = true;
+				urlAuxiliar = '<div style="background-color:#ddd;margin-left:auto;margin-right:auto;-moz-border-radius:7px;border-radius:7px;width: 400px;"><object id="agence-communication" quality="high" data="https://www.grapheine.com/bombaytv/bt.swf?code=' + acertijo.pregunta + '" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" height="370" width="400"><param name="movie" value="https://www.grapheine.com/bombaytv/bt.swf?code=' + acertijo.pregunta + '"><param name="quality" value="high"></param><param name="allowScriptAccess" value="always"></param></object></div>';
+				
+				$scope.acertijoBombayUrl = $sce.trustAsHtml(urlAuxiliar);
 			} else {
 				$scope.isTexto = false;
 				$scope.isPic = false;
 				$scope.isAudio = false;
 				$scope.isVideo = false;
 				$scope.isIframe = false;
+				$scope.isBombay = false;
 			}
 		}
 		
