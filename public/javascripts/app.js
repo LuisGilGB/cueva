@@ -125,7 +125,7 @@ angular.module('cuevaApp', ['ngSanitize'])
 				$scope.isIframe = false;
 				$scope.isPuzzle = true;
 				$scope.isBombay = false;
-				urlAuxiliar = '<br><center><a href="http://www.flash-gear.com/index.php?puz"><img src="http://www.flash-gear.com/puz1.gif"></a><br><EMBED allowScriptAccess="always" allowNetworking="all" src="' + acertijo.pregunta + '" quality=high wmode=transparent scale=noscale salign=LT bgcolor="FFFFFF" WIDTH="510" HEIGHT="750" NAME="puz351011" ALIGN="" TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer" /><BR><a href="http://www.flash-gear.com/index.php?puz"><img src="http://www.flash-gear.com/puz2.gif"><br><b><font face="Verdana"><h5>provided by flash-gear.com</h5></font></b></a><br></center><br>';
+				urlAuxiliar = '<br><center><a href="http://www.flash-gear.com/index.php?puz"><img src="http://www.flash-gear.com/puz1.gif"></a><br><EMBED allowScriptAccess="always" allowNetworking="all" src="' + acertijo.pregunta + '" quality=high wmode=transparent scale=noscale salign=LT bgcolor="FFFFFF" WIDTH="' + acertijo.width + '" HEIGHT="' + acertijo.height + '" NAME="' + acertijo.puzName + '" ALIGN="" TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer" /><BR><a href="http://www.flash-gear.com/index.php?puz"><img src="http://www.flash-gear.com/puz2.gif"><br><b><font face="Verdana"><h5>provided by flash-gear.com</h5></font></b></a><br></center><br>';
 				
 				$scope.acertijoPuzzleUrl = $sce.trustAsHtml(urlAuxiliar);
 			} else if (acertijo.tipoPregunta === 'bombay') {
