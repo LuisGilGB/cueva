@@ -12,7 +12,7 @@ var cuevaRouter = require('./routes/cuevaRouter');
 var app = express();
 
 var mongoose = require('mongoose');
-var dbUrl = 'mongodb://heroku_8qcmkphh:heroku_8qcmkphh@ds131510.mlab.com:31510/heroku_8qcmkphh';
+var dbUrl = 'mongodb://almirante:almirante@ds131510.mlab.com:31510/heroku_8qcmkphh';
 mongoose.connect(dbUrl);
 
 var db = mongoose.connection;
