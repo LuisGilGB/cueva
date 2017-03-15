@@ -27,7 +27,16 @@ var salaSchema = new Schema({
 		type: String,
 		required: true
 	},
-	respuestas: [respuestaSchema]
+	respuestas: [respuestaSchema],
+	width: {
+		type: String
+	},
+	height: {
+		type: String
+	},
+	puzName: {
+		type: String
+	}
 }, {
 	timestamps: true
 });

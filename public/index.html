@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8"/>
 
+	<link rel="shortcut icon" type="image/png" href="/images/favicon.png"/>
     <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
     <link href="bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
@@ -14,6 +15,9 @@
 	<div id="cuevawrap">
 		<nav class="navbar navbar-default">
 			<div class="container-fluid">
+				<div class="cueva-nombre-sala">
+					Sala {{nombreSala}}
+				</div>
 			</div>
 			<p id="example"></p>
 		</nav>
@@ -23,9 +27,28 @@
 					<div id="cueva-pista">
 						<div id="acertijo-texto" ng-if="isTexto">{{acertijo}}</div>
 						<img id="acertijo-imagen" ng-if="isPic" ng-src="{{acertijoImagenUrl}}"/>
-						<audio controls id="acertijo-audio" ng-if="isAudio">
+						<!--<audio controls id="acertijo-audio" ng-if="isAudio">
 							<source ng-src="{{acertijoAudioUrl}}" type="audio/mpeg">
-						</audio>
+						</audio>-->
+						<div id="acertijo-audio" ng-if="isAudio">
+							<!--<object width="148" height="44"><param name="movie" value="{{acertijoAudioUrl}}"></param><param name="wmode" value="transparent"></param><embed ng-src="{{acertijoAudioUrl}}" width="148" height="44" wmode="transparent" type="application/x-shockwave-flash"></embed></object>-->
+							<!--<iframe width="560" height="315" ng-src="{{acertijoAudioUrl}}"></iframe>-->
+							<div ng-bind-html='acertijoAudioUrl'></div>
+						</div>
+						<div id="acertijo-video" ng-if="isVideo">
+							<!--<iframe width="560" height="315" ng-src="{{acertijoVideoUrl}}" frameborder="0" allowfullscreen></iframe>-->
+							<div ng-bind-html='acertijoVideoUrl'></div>
+						</div>
+						<div id="acertijo-iframe" ng-if="isIframe">
+							<!--<iframe width="560" height="315" ng-src="{{acertijoVideoUrl}}" frameborder="0" allowfullscreen></iframe>-->
+							<div ng-bind-html='acertijoIframeUrl'></div>
+						</div>
+						<div id="acertijo-puzzle" ng-if="isPuzzle">
+							<div ng-bind-html='acertijoPuzzleUrl'></div>
+						</div>
+						<div id="acertijo-bombay" ng-if="isBombay">
+							<div ng-bind-html='acertijoBombayUrl'></div>
+						</div>
 					</div>
 					<form ng-submit="compruebaClave()" id="cueva-form">
 						<div class="form-group">
@@ -55,6 +78,7 @@
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="bower_components/angular/angular.min.js"></script>
+	<script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
     <script src="javascripts/app.js"></script>
 </body>
 

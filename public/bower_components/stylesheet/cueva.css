@@ -2,6 +2,12 @@ html, body {
 	height: 100%
 }
 
+.cueva-nombre-sala {
+	text-align: center;
+	font-size: 24px;
+	padding-top: 8px;
+}
+
 .cueva-fondo {
 	background-color: saddlebrown;
 	padding: 15px;

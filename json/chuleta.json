@@ -1,0 +1,1174 @@
+[{
+	"nombreSala": "Xenogearsifm",
+	"tipoPregunta": "siguiente",
+	"pregunta": "Bienvenidos.",
+	"respuestas": [{
+		"textoRespuesta": "",
+		"nombreDestino": "tupper"
+	}]
+}, {
+	"nombreSala": "tupper",
+	"tipoPregunta": "texto",
+	"pregunta": "Estás en la entrada de un complejo rompecabezas que desafiará tu intelecto y demostrará al mundo tu capacidad para reinar los mares. ¿Qué vas a hacer?",
+	"respuestas": [{
+		"textoRespuesta": "Entrar",
+		"nombreDestino": "danielpeque"
+	}]
+}, {
+	"nombreSala": "danielpeque",
+	"tipoPregunta": "texto",
+	"pregunta": "Antes de avanzar te pregunto, ¿qué buscas?",
+	"respuestas": [{
+		"textoRespuesta": "One Piece",
+		"nombreDestino": "super7"
+	}, {
+		"textoRespuesta": "El One Piece",
+		"nombreDestino": "super7"
+	}, {
+		"textoRespuesta": "Ser mod",
+		"nombreDestino": "gamh"
+	}, {
+		"textoRespuesta": "Ser moderador",
+		"nombreDestino": "gamh"
+	}, {
+		"textoRespuesta": "El wanted pa mí",
+		"nombreDestino": "massato"
+	}]
+}, {
+	"nombreSala": "massato",
+	"tipoPregunta": "siguiente",
+	"pregunta": "Envía a LasGafasDeKuro un mp con el texto ”¡El tesoro de las atarazanas es mío, que lo sepa todo el mundo!” para recibir un bonus de 50 millones en tu wanted. Bonus canjeable sólo una vez por guerra (el primero que lo mande se lo queda).",
+	"respuestas": [{
+		"textoRespuesta": "",
+		"nombreDestino": "super7"
+	}]
+}, {
+	"nombreSala": "super7",
+	"tipoPregunta": "texto",
+	"pregunta": "Vas avanzando poco a poco, y el camino será largo.\n¿Crees que al salir de esta cueva el viaje habrá acabado?",
+	"respuestas": [{
+		"textoRespuesta": "Sí",
+		"nombreDestino": "hghpito"
+	}, {
+		"textoRespuesta": "No",
+		"nombreDestino": "dragoneyes"
+	}, {
+		"textoRespuesta": "Si",
+		"nombreDestino": "xanakim"
+	}]
+}, {
+	"nombreSala": "hghpito",
+	"tipoPregunta": "siguiente",
+	"pregunta": "No tienes tú fe.",
+	"respuestas": [{
+		"textoRespuesta": "",
+		"nombreDestino": "super7"
+	}]
+}, {
+	"nombreSala": "xanakim",
+	"tipoPregunta": "siguiente",
+	"pregunta": "Si sin tilde es si condicional, tarugo.",
+	"respuestas": [{
+		"textoRespuesta": "",
+		"nombreDestino": "Xenogearsifm"
+	}]
+}, {
+	"nombreSala": "dragoneyes",
+	"tipoPregunta": "audio",
+	"pregunta": "s1DP3PNizO33",
+	"respuestas": [{
+		"textoRespuesta": "Sogeking",
+		"nombreDestino": "telika"
+	}]
+}, {
+	"nombreSala": "telika",
+	"tipoPregunta": "imagen",
+	"pregunta": "http://i.imgur.com/3POqyzZ.jpg",
+	"respuestas": [{
+		"textoRespuesta": "Usopp",
+		"nombreDestino": "robotron"
+	}, {
+		"textoRespuesta": "Ussop",
+		"nombreDestino": "Xenogearsifm"
+	}, {
+		"textoRespuesta": "Ussuf",
+		"nombreDestino": "Xenogearsifm"
+	}, {
+		"textoRespuesta": "Usuff",
+		"nombreDestino": "Xenogearsifm"
+	}]
+}, {
+	"nombreSala": "robotron",
+	"tipoPregunta": "texto",
+	"pregunta": "¡¡Por las barbas del profeta!!",
+	"respuestas": [{
+		"textoRespuesta": "Usuff",
+		"nombreDestino": "drew17"
+	}, {
+		"textoRespuesta": "Ussuf",
+		"nombreDestino": "Santi"
+	}]
+}, {
+	"nombreSala": "drew17",
+	"tipoPregunta": "imagen",
+	"pregunta": "http://i.imgur.com/4XUPEDZ.png",
+	"respuestas": [{
+		"textoRespuesta": "Pepe Carabias",
+		"nombreDestino": "nabuuu"
+	}]
+}, {
+	"nombreSala": "nabuuu",
+	"tipoPregunta": "imagen",
+	"pregunta": "http://i.imgur.com/vWXIAWq.png",
+	"respuestas": [{
+		"textoRespuesta": "suicidio",
+		"nombreDestino": "darkzell"
+	}, {
+		"textoRespuesta": ":suicidio:",
+		"nombreDestino": "darkzell"
+	}, {
+		"textoRespuesta": " :suicidio: ",
+		"nombreDestino": "darkzell"
+	}]
+}, {
+	"nombreSala": "darkzell",
+	"tipoPregunta": "video",
+	"pregunta": "u3Q0RUL7Y30",
+	"respuestas": [{
+		"textoRespuesta": "Shakeen",
+		"nombreDestino": "prodygy"
+	}]
+}, {
+	"nombreSala": "prodygy",
+	"tipoPregunta": "puzzle",
+	"pregunta": "http://five.flash-gear.com/npuz/puz.php?c=f&o=1&id=4667333&k=68294259&s=60&w=360&h=600",
+	"width": "510",
+	"height": "750",
+	"puzName": "puz351011",
+	"respuestas": [{
+		"textoRespuesta": "Volumen 84",
+		"nombreDestino": "blackbahamut"
+	}, {
+		"textoRespuesta": "84",
+		"nombreDestino": "blackbahamut"
+	}]
+}, {
+	"nombreSala": "blackbahamut",
+	"tipoPregunta": "bombay",
+	"pregunta": "3b895b76adddaa0aa9d7c8b8308b5cf4",
+	"respuestas": [{
+		"textoRespuesta": "Duiken",
+		"nombreDestino": "itsen"
+	}]
+}, {
+	"nombreSala": "itsen",
+	"tipoPregunta": "texto",
+	"pregunta": "Te encuentras con una bifurcación con desviaciones hacia tu derecha e izquierda. Tendrás que elegir qué dirección tomar.",
+	"respuestas": [{
+		"textoRespuesta": "Izquierda",
+		"nombreDestino": "alejandrogra"
+	}, {
+		"textoRespuesta": "Derecha",
+		"nombreDestino": "denato"
+	}, {
+		"textoRespuesta": "Tira palante",
+		"nombreDestino": "dnl0121"
+	}, {
+		"textoRespuesta": "Tirar palante",
+		"nombreDestino": "dnl0121"
+	}, {
+		"textoRespuesta": "Tiro palante",
+		"nombreDestino": "dnl0121"
+	}]
+}, {
+	"nombreSala": "alejandrogra",
+	"tipoPregunta": "texto",
+	"pregunta": "Aprecio a Camie; pero fusionarme con ella me jorobaría.",
+	"respuestas": [{
+		"textoRespuesta": "Mello",
+		"nombreDestino": "pesto"
+	}]
+}, {
+	"nombreSala": "pesto",
+	"tipoPregunta": "texto",
+	"pregunta": "Donde en vez de Gibraltares tienen copias de Brabong.",
+	"respuestas": [{
+		"textoRespuesta": "Banaro",
+		"nombreDestino": "chj"
+	}, {
+		"textoRespuesta": "Isla Banaro",
+		"nombreDestino": "chj"
+	}]
+}, {
+	"nombreSala": "chj",
+	"tipoPregunta": "texto",
+	"pregunta": "La banda que va tras el chupacámaras.",
+	"respuestas": [{
+		"textoRespuesta": "Tomato Gang",
+		"nombreDestino": "rocinante"
+	}]
+}, {
+	"nombreSala": "rocinante",
+	"tipoPregunta": "texto",
+	"pregunta": "Casi vende a la flota enemiga.",
+	"respuestas": [{
+		"textoRespuesta": "CaptainSoraking",
+		"nombreDestino": "trishaz"
+	}, {
+		"textoRespuesta": "Sora",
+		"nombreDestino": "joshivan"
+	}]
+}, {
+	"nombreSala": "joshivan",
+	"tipoPregunta": "texto",
+	"pregunta": "El chucho del rey.",
+	"respuestas": [{
+		"textoRespuesta": "Inuarashi",
+		"nombreDestino": "vagui"
+	}]
+}, {
+	"nombreSala": "vagui",
+	"tipoPregunta": "texto",
+	"pregunta": "Bisemanal decían xdxdxd.",
+	"respuestas": [{
+		"textoRespuesta": "The Grand Line Journal",
+		"nombreDestino": "josezas"
+	}]
+}, {
+	"nombreSala": "josezas",
+	"tipoPregunta": "texto",
+	"pregunta": "¿Qué es un copirata?",
+	"respuestas": [{
+		"textoRespuesta": "Bar",
+		"nombreDestino": "canci"
+	}, {
+		"textoRespuesta": "Un bar",
+		"nombreDestino": "canci"
+	}]
+}, {
+	"nombreSala": "canci",
+	"tipoPregunta": "texto",
+	"pregunta": "¿Crees que vas bien?",
+	"respuestas": [{
+		"textoRespuesta": "Sí",
+		"nombreDestino": "alejandrogra"
+	}, {
+		"textoRespuesta": "No",
+		"nombreDestino": "joshivan"
+	}, {
+		"textoRespuesta": "Kjas",
+		"nombreDestino": "trishaz"
+	}]
+}, {
+	"nombreSala": "trishaz",
+	"tipoPregunta": "texto",
+	"pregunta": "La prima mimada.",
+	"respuestas": [{
+		"textoRespuesta": "Mizuira",
+		"nombreDestino": "goldensun"
+	}]
+}, {
+	"nombreSala": "goldensun",
+	"tipoPregunta": "texto",
+	"pregunta": "Medio siglo me había contemplado cuando llegó la ejecución.",
+	"respuestas": [{
+		"textoRespuesta": "Shirohige",
+		"nombreDestino": "nash23"
+	}, {
+		"textoRespuesta": "Edward Newgate",
+		"nombreDestino": "nash23"
+	}, {
+		"textoRespuesta": "Barbablanca",
+		"nombreDestino": "estebanco"
+	}]
+}, {
+	"nombreSala": "nash23",
+	"tipoPregunta": "siguiente",
+	"pregunta": "En la bifurcación mejor será que hagas como los de Alicante.",
+	"respuestas": [{
+		"textoRespuesta": "",
+		"nombreDestino": "itsen"
+	}]
+}, {
+	"nombreSala": "denato",
+	"tipoPregunta": "texto",
+	"pregunta": "Una gallina sin grasa.",
+	"respuestas": [{
+		"textoRespuesta": "Magra",
+		"nombreDestino": "edding"
+	}]
+}, {
+	"nombreSala": "edding",
+	"tipoPregunta": "texto",
+	"pregunta": "Económico y ambulante.",
+	"respuestas": [{
+		"textoRespuesta": "Baratie",
+		"nombreDestino": "gerarcito"
+	}]
+}, {
+	"nombreSala": "gerarcito",
+	"tipoPregunta": "texto",
+	"pregunta": "En verdes prados se especuló sobre la identidad de Kaido.",
+	"respuestas": [{
+		"textoRespuesta": "Meadows",
+		"nombreDestino": "daxel"
+	}]
+}, {
+	"nombreSala": "daxel",
+	"tipoPregunta": "texto",
+	"pregunta": "El mejor repelente.",
+	"respuestas": [{
+		"textoRespuesta": "Kuma",
+		"nombreDestino": "ebichuman"
+	}, {
+		"textoRespuesta": "Bartholomew Kuma",
+		"nombreDestino": "japolito"
+	}]
+}, {
+	"nombreSala": "ebichuman",
+	"tipoPregunta": "texto",
+	"pregunta": "El minino del rey.",
+	"respuestas": [{
+		"textoRespuesta": "Nekomamushi",
+		"nombreDestino": "estebanco"
+	}]
+}, {
+	"nombreSala": "estebanco",
+	"tipoPregunta": "texto",
+	"pregunta": "Bisemanal decían xdxdxd.",
+	"respuestas": [{
+		"textoRespuesta": "The Grand Line Journal",
+		"nombreDestino": "yitan"
+	}]
+}, {
+	"nombreSala": "yitan",
+	"tipoPregunta": "texto",
+	"pregunta": "¿Qué es un copirata?",
+	"respuestas": [{
+		"textoRespuesta": "Bar",
+		"nombreDestino": "angelvendetta"
+	}, {
+		"textoRespuesta": "Un bar",
+		"nombreDestino": "angelvendetta"
+	}]
+}, {
+	"nombreSala": "angelvendetta",
+	"tipoPregunta": "texto",
+	"pregunta": "¿Crees que vas bien?",
+	"respuestas": [{
+		"textoRespuesta": "Sí",
+		"nombreDestino": "daxel"
+	}, {
+		"textoRespuesta": "No",
+		"nombreDestino": "ebichuman"
+	}, {
+		"textoRespuesta": "Kjas",
+		"nombreDestino": "japolito"
+	}]
+}, {
+	"nombreSala": "japolito",
+	"tipoPregunta": "texto",
+	"pregunta": "Sacó 400 por un proyectil.",
+	"respuestas": [{
+		"textoRespuesta": "tykos",
+		"nombreDestino": "ramenman"
+	}]
+}, {
+	"nombreSala": "ramenman",
+	"tipoPregunta": "texto",
+	"pregunta": "Con Sanji y a lo loco.",
+	"respuestas": [{
+		"textoRespuesta": "Marilyn",
+		"nombreDestino": "jorgevirus"
+	}]
+}, {
+	"nombreSala": "jorgevirus",
+	"tipoPregunta": "texto",
+	"pregunta": "Cuando el rey adoptó the way.",
+	"respuestas": [{
+		"textoRespuesta": "7",
+		"nombreDestino": "redfox"
+	}]
+}, {
+	"nombreSala": "redfox",
+	"tipoPregunta": "siguiente",
+	"pregunta": "Para coger el camino correcto de la bifurcación no te olvides de tirar con la P.",
+	"respuestas": [{
+		"textoRespuesta": "",
+		"nombreDestino": "itsen"
+	}]
+}, {
+	"nombreSala": "dnl0121",
+	"tipoPregunta": "video",
+	"pregunta": "JPgxXQ4b1c8",
+	"respuestas": [{
+		"textoRespuesta": "Cuck",
+		"nombreDestino": "coñete"
+	}, {
+		"textoRespuesta": "Kuby",
+		"nombreDestino": "coñete"
+	}, {
+		"textoRespuesta": "Cucktales",
+		"nombreDestino": "coñete"
+	}]
+}, {
+	"nombreSala": "coñete",
+	"tipoPregunta": "texto",
+	"pregunta": "Say my name.",
+	"respuestas": [{
+		"textoRespuesta": "coñete",
+		"nombreDestino": "idam"
+	}, {
+		"textoRespuesta": "Heisenberg",
+		"nombreDestino": "darkzell"
+	}, {
+		"textoRespuesta": "Heisemberg",
+		"nombreDestino": "Xenogearsifm"
+	}, {
+		"textoRespuesta": "Heisenbear",
+		"nombreDestino": "coñete"
+	}]
+}, {
+	"nombreSala": "idam",
+	"tipoPregunta": "texto",
+	"pregunta": "Tenla lista antes de las 20:45.",
+	"respuestas": [{
+		"textoRespuesta": "Porra",
+		"nombreDestino": "gamh"
+	}, {
+		"textoRespuesta": "La porra",
+		"nombreDestino": "gamh"
+	}, {
+		"textoRespuesta": "Porra Champions",
+		"nombreDestino": "gamh"
+	}, {
+		"textoRespuesta": "La porra de la Champions",
+		"nombreDestino": "gamh"
+	}]
+}, {
+	"nombreSala": "gamh",
+	"tipoPregunta": "texto",
+	"pregunta": "Principal causa de ban de la V GdB.",
+	"respuestas": [{
+		"textoRespuesta": "Hipopótamo bebé",
+		"nombreDestino": "jhonsuero"
+	}, {
+		"textoRespuesta": "Hipopotamo bebe",
+		"nombreDestino": "Xenogearsifm"
+	}, {
+		"textoRespuesta": "Hipopótamo bebe",
+		"nombreDestino": "Xenogearsifm"
+	}, {
+		"textoRespuesta": "Hipopotamo bebé",
+		"nombreDestino": "Xenogearsifm"
+	}]
+}, {
+	"nombreSala": "jhonsuero",
+	"tipoPregunta": "imagen",
+	"pregunta": "http://i.imgur.com/Fhe9viB.png",
+	"respuestas": [{
+		"textoRespuesta": "Share the Urouge",
+		"nombreDestino": "david3252"
+	}]
+}, {
+	"nombreSala": "david3252",
+	"tipoPregunta": "texto",
+	"pregunta": "19.200.000.",
+	"respuestas": [{
+		"textoRespuesta": "Frost D Favian",
+		"nombreDestino": "kon"
+	}]
+}, {
+	"nombreSala": "tobenu",
+	"tipoPregunta": "texto",
+	"pregunta": "¿Cara o cruz?",
+	"respuestas": [{
+		"textoRespuesta": "Cara",
+		"nombreDestino": "hayuken12"
+	}, {
+		"textoRespuesta": "Cruz",
+		"nombreDestino": "pelas"
+	}]
+}, {
+	"nombreSala": "hayuken12",
+	"tipoPregunta": "texto",
+	"pregunta": "Aunque lo de hacer agujeros debería ser cosa mía, fue un marine quien agujereó bien en aquella guerra.",
+	"respuestas": [{
+		"textoRespuesta": "Brocca",
+		"nombreDestino": "spokabucho"
+	}]
+}, {
+	"nombreSala": "spokabucho",
+	"tipoPregunta": "audio",
+	"pregunta": "http://vocaroo.com/player.swf?playMediaID=s1CkjN641BBI&autoplay=0",
+	"respuestas": [{
+		"textoRespuesta": "Cartagena, qué hermosa eres",
+		"nombreDestino": "talashi"
+	}]
+}, {
+	"nombreSala": "talashi",
+	"tipoPregunta": "texto",
+	"pregunta": "Cuando estoy con las altas esferas me despiden como lo haría Chiquito.",
+	"respuestas": [{
+		"textoRespuesta": "Thalassa Lucas",
+		"nombreDestino": "phoenix"
+	}]
+}, {
+	"nombreSala": "phoenix",
+	"tipoPregunta": "imagen",
+	"pregunta": "http://i.imgur.com/aBuHRE4.png",
+	"respuestas": [{
+		"textoRespuesta": "47k",
+		"nombreDestino": "paccab"
+	}, {
+		"textoRespuesta": "47.000",
+		"nombreDestino": "paccab"
+	}, {
+		"textoRespuesta": "47000",
+		"nombreDestino": "paccab"
+	}]
+}, {
+	"nombreSala": "paccab",
+	"tipoPregunta": "texto",
+	"pregunta": "01010110 01101001 01100011 01100101 01100001 01101100 01101101 01101001 01110010 01100001 01101110 01110100 01100101",
+	"respuestas": [{
+		"textoRespuesta": "Vicealmirante",
+		"nombreDestino": "ishida"
+	}, {
+		"textoRespuesta": "Puto Master",
+		"nombreDestino": "ishida"
+	}]
+}, {
+	"nombreSala": "ishida",
+	"tipoPregunta": "bombay",
+	"pregunta": "8176bb01c28e33d8a742bd2eab1c0397",
+	"respuestas": [{
+		"textoRespuesta": "Onikuro",
+		"nombreDestino": "onlyacook"
+	}]
+}, {
+	"nombreSala": "onlyacook",
+	"tipoPregunta": "siguiente",
+	"pregunta": "¿Qué era becedé?",
+	"respuestas": [{
+		"textoRespuesta": "",
+		"nombreDestino": "kon"
+	}]
+}, {
+	"nombreSala": "pelas",
+	"tipoPregunta": "texto",
+	"pregunta": "Aunque vengo de una isla italiana, me muevo como si fuera brasileño.",
+	"respuestas": [{
+		"textoRespuesta": "Shanba",
+		"nombreDestino": "eneth"
+	}]
+}, {
+	"nombreSala": "eneth",
+	"tipoPregunta": "audio",
+	"pregunta": "http://vocaroo.com/player.swf?playMediaID=s0LgU2m9gNef&autoplay=0",
+	"respuestas": [{
+		"textoRespuesta": "Albacete, qué hermosa eres",
+		"nombreDestino": "luiis"
+	}]
+}, {
+	"nombreSala": "luiis",
+	"tipoPregunta": "texto",
+	"pregunta": "Reconozco que siempre estoy con mi nombre en la boca.",
+	"respuestas": [{
+		"textoRespuesta": "Fishbone",
+		"nombreDestino": "zapher"
+	}]
+}, {
+	"nombreSala": "zapher",
+	"tipoPregunta": "imagen",
+	"pregunta": "http://i.imgur.com/vzXreWJ.png",
+	"respuestas": [{
+		"textoRespuesta": "1k5",
+		"nombreDestino": "delroix"
+	}, {
+		"textoRespuesta": "1.500",
+		"nombreDestino": "delroix"
+	}, {
+		"textoRespuesta": "1500",
+		"nombreDestino": "delroix"
+	}]
+}, {
+	"nombreSala": "delroix",
+	"tipoPregunta": "texto",
+	"pregunta": "01000011 01101111 01101110 01110100 01110010 01100001 01100001 01101100 01101101 01101001 01110010 01100001 01101110 01110100 01100101",
+	"respuestas": [{
+		"textoRespuesta": "Contraalmirante",
+		"nombreDestino": "eldrad"
+	}, {
+		"textoRespuesta": "Puto Master",
+		"nombreDestino": "eldrad"
+	}]
+}, {
+	"nombreSala": "eldrad",
+	"tipoPregunta": "bombay",
+	"pregunta": "380570292e090d96082f27d6e4feeb6d",
+	"respuestas": [{
+		"textoRespuesta": "Kuby37",
+		"nombreDestino": "pamela"
+	}]
+}, {
+	"nombreSala": "pamela",
+	"tipoPregunta": "siguiente",
+	"pregunta": "¿Con qué tecnología habrán construido esto?",
+	"respuestas": [{
+		"textoRespuesta": "",
+		"nombreDestino": "kon"
+	}]
+}, {
+	"nombreSala": "kon",
+	"tipoPregunta": "texto",
+	"pregunta": "Donde se apuesta si Usopp conseguirá atravesar el Nuevo Mundo.",
+	"respuestas": [{
+		"textoRespuesta": "Bowin",
+		"nombreDestino": "alexisr"
+	}, {
+		"textoRespuesta": "Isla Bowin",
+		"nombreDestino": "alexisr"
+	}]
+}, {
+	"nombreSala": "alexisr",
+	"tipoPregunta": "texto",
+	"pregunta": "Para un buen cosplay de Sanji hacer esto deberás tener.",
+	"respuestas": [{
+		"textoRespuesta": "Mocho",
+		"nombreDestino": "yamagami"
+	}, {
+		"textoRespuesta": "Fregona",
+		"nombreDestino": "jhonsuero"
+	}, {
+		"textoRespuesta": "Vileda",
+		"nombreDestino": "yamagami"
+	}]
+}, {
+	"nombreSala": "yamagami",
+	"tipoPregunta": "texto",
+	"pregunta": "Poseedor de la Nova Nova no Mi.",
+	"respuestas": [{
+		"textoRespuesta": "BlazeZander",
+		"nombreDestino": "dam"
+	}, {
+		"textoRespuesta": "BlazeZanderXD",
+		"nombreDestino": "dam"
+	}]
+}, {
+	"nombreSala": "dam",
+	"tipoPregunta": "imagen",
+	"pregunta": "http://i.imgur.com/fApfKw0.png",
+	"respuestas": [{
+		"textoRespuesta": "t1016",
+		"nombreDestino": "redhair"
+	}]
+}, {
+	"nombreSala": "redhair",
+	"tipoPregunta": "texto",
+	"pregunta": "Al cambiar de siglo me mataron, pero en mi siguiente destino conseguí un nuevo trabajo.",
+	"respuestas": [{
+		"textoRespuesta": "McKinley",
+		"nombreDestino": "jppaa"
+	}]
+}, {
+	"nombreSala": "jppaa",
+	"tipoPregunta": "texto",
+	"pregunta": "El tercero de los spoilers.",
+	"respuestas": [{
+		"textoRespuesta": "Noland",
+		"nombreDestino": "lauri1986"
+	}]
+}, {
+	"nombreSala": "lauri1986",
+	"tipoPregunta": "texto",
+	"pregunta": "El material milagroso de Bombay.",
+	"respuestas": [{
+		"textoRespuesta": "Grapheine",
+		"nombreDestino": "josito88"
+	}]
+}, {
+	"nombreSala": "josito88",
+	"tipoPregunta": "audio",
+	"pregunta": "s1hz1zL3HGCT",
+	"respuestas": [{
+		"textoRespuesta": "Ruido blanco",
+		"nombreDestino": "baekaibaaa"
+	}]
+}, {
+	"nombreSala": "baekaibaaa",
+	"tipoPregunta": "texto",
+	"pregunta": "¿Cuántos apoyos tuvo el Pirate Docking Six: Big Emperor?",
+	"respuestas": [{
+		"textoRespuesta": "30",
+		"nombreDestino": "iser"
+	}]
+}, {
+	"nombreSala": "iser",
+	"tipoPregunta": "video",
+	"pregunta": "wYFFzSHZw-s",
+	"respuestas": [{
+		"textoRespuesta": "piu",
+		"nombreDestino": "albertinni"
+	}, {
+		"textoRespuesta": "piu.droskom",
+		"nombreDestino": "albertinni"
+	}]
+}, {
+	"nombreSala": "albertinni",
+	"tipoPregunta": "texto",
+	"pregunta": "En la IV Guerra de Bandas... ¿qué tenía Naku en la cara?",
+	"respuestas": [{
+		"textoRespuesta": "Lefa",
+		"nombreDestino": "darksarce"
+	}, {
+		"textoRespuesta": "Lefazo",
+		"nombreDestino": "darksarce"
+	}, {
+		"textoRespuesta": "Un lefazo",
+		"nombreDestino": "darksarce"
+	}]
+}, {
+	"nombreSala": "darksarce",
+	"tipoPregunta": "imagen",
+	"pregunta": "http://i.imgur.com/KBiINvx.png",
+	"respuestas": [{
+		"textoRespuesta": "¡¡…!! ¡¡Se lo ha quitado!!",
+		"nombreDestino": "wass150"
+	}]
+}, {
+	"nombreSala": "wass150",
+	"tipoPregunta": "texto",
+	"pregunta": "1992",
+	"respuestas": [{
+		"textoRespuesta": "Gill Bastar",
+		"nombreDestino": "evan69"
+	}]
+}, {
+	"nombreSala": "evan69",
+	"tipoPregunta": "texto",
+	"pregunta": "Domina el Santouryuu.",
+	"respuestas": [{
+		"textoRespuesta": "Roronoa Zoro",
+		"nombreDestino": "sbbmkd"
+	}, {
+		"textoRespuesta": "Zigorou",
+		"nombreDestino": "ghoute"
+	}, {
+		"textoRespuesta": "Zoro",
+		"nombreDestino": "Xenogearsifm"
+	}, {
+		"textoRespuesta": "Zorro",
+		"nombreDestino": "Xenogearsifm"
+	}, {
+		"textoRespuesta": "Zorro Ronoa",
+		"nombreDestino": "Xenogearsifm"
+	}]
+}, {
+	"nombreSala": "sbbmkd",
+	"tipoPregunta": "imagen",
+	"pregunta": "http://i.imgur.com/LWmDBOU.png",
+	"respuestas": [{
+		"textoRespuesta": "130b12",
+		"nombreDestino": "arlong24"
+	}, {
+		"textoRespuesta": "#130b12",
+		"nombreDestino": "arlong24"
+	}]
+}, {
+	"nombreSala": "arlong24",
+	"tipoPregunta": "bombay",
+	"pregunta": "d9879bfa81d32e4002f288349f51d635",
+	"respuestas": [{
+		"textoRespuesta": "Rita Barberá",
+		"nombreDestino": "rekka929"
+	}]
+}, {
+	"nombreSala": "rekka929",
+	"tipoPregunta": "audio",
+	"pregunta": "http://vocaroo.com/player.swf?playMediaID=s1VlELdddvyb&autoplay=0",
+	"respuestas": [{
+		"textoRespuesta": "Overtaken",
+		"nombreDestino": "silex"
+	}, {
+		"textoRespuesta": "Oitsumetareta",
+		"nombreDestino": "silex"
+	}]
+}, {
+	"nombreSala": "silex",
+	"tipoPregunta": "texto",
+	"pregunta": "11110110 00100110 10010110 00101110 01001110 10100110 01101110 01110110 10010110 00000100 11110110 00101110 00011110 10100110 00101010",
+	"respuestas": [{
+		"textoRespuesta": "Texto invertido",
+		"nombreDestino": "dantnt"
+	}, {
+		"textoRespuesta": "Puto Master",
+		"nombreDestino": "dantnt"
+	}]
+}, {
+	"nombreSala": "dantnt",
+	"tipoPregunta": "picross",
+	"pregunta": "http://ichrisi.bizhat.com/custom_js/picross_play.html?15.10|e7xcAKSq21bgutKbgu00UPHlH",
+	"respuestas": [{
+		"textoRespuesta": "Marina",
+		"nombreDestino": "spideraranea"
+	}]
+}, {
+	"nombreSala": "spideraranea",
+	"tipoPregunta": "imagen",
+	"pregunta": "http://i.imgur.com/2UWRnoz.png",
+	"respuestas": [{
+		"textoRespuesta": "¡¡¡Hacedlo sin más, yo me encargaré del resto!!!",
+		"nombreDestino": "garchacesaug"
+	}]
+}, {
+	"nombreSala": "ghoute",
+	"tipoPregunta": "picross",
+	"pregunta": "http://ichrisi.bizhat.com/custom_js/picross_play.html?10.10|u6btTx6ZsRx4Z24nn",
+	"respuestas": [{
+		"textoRespuesta": "Santouryuu",
+		"nombreDestino": "garchacesaug"
+	}]
+}, {
+	"nombreSala": "garchacesaug",
+	"tipoPregunta": "texto",
+	"pregunta": "¿Quién usurpó durante un tiempo el trono de crushing?",
+	"respuestas": [{
+		"textoRespuesta": "Natthy",
+		"nombreDestino": "bixo"
+	}]
+}, {
+	"nombreSala": "bixo",
+	"tipoPregunta": "audio",
+	"pregunta": "s0lYWi9njy3X",
+	"respuestas": [{
+		"textoRespuesta": "Spoilers semanales",
+		"nombreDestino": "west8"
+	}]
+}, {
+	"nombreSala": "west8",
+	"tipoPregunta": "picross",
+	"pregunta": "http://ichrisi.bizhat.com/custom_js/picross_play.html?20.20|ZZZYZZt0S3Eu0iS01x41hFuQ_WnYFY5_t07MvNYdePZ3kkfZZWeZZ9kkAemvKZuW00b",
+	"respuestas": [{
+		"textoRespuesta": "Death Wink",
+		"nombreDestino": "hernando"
+	}]
+}, {
+	"nombreSala": "hernando",
+	"tipoPregunta": "texto",
+	"pregunta": "Todos entrasteis en la cocina. ¿Y para qué? Para nada.",
+	"respuestas": [{
+		"textoRespuesta": "Pokéball",
+		"nombreDestino": "vazquez"
+	}, {
+		"textoRespuesta": "Pokeball",
+		"nombreDestino": "vazquez"
+	}]
+}, {
+	"nombreSala": "vazquez",
+	"tipoPregunta": "texto",
+	"pregunta": "En el contexto de la Guerra de Bandas... ¿Qué significa ADAFT?",
+	"respuestas": [{
+		"textoRespuesta": "Asociación de Amiguetes Fisher Tiger",
+		"nombreDestino": "pasado"
+	}]
+}, {
+	"nombreSala": "pasado",
+	"tipoPregunta": "texto",
+	"pregunta": "Nash lo fichó por su nick.",
+	"respuestas": [{
+		"textoRespuesta": "redboy",
+		"nombreDestino": "jomilopa"
+	}]
+}, {
+	"nombreSala": "jomilopa",
+	"tipoPregunta": "texto",
+	"pregunta": "¿Qué es lo que a Brabong le da igual?",
+	"respuestas": [{
+		"textoRespuesta": "Lo que sugiráis",
+		"nombreDestino": "izan"
+	}]
+}, {
+	"nombreSala": "izan",
+	"tipoPregunta": "bombay",
+	"pregunta": "5770e088353a5c69f78f700816d25bc4",
+	"respuestas": [{
+		"textoRespuesta": "Alfriki",
+		"nombreDestino": "giroro"
+	}]
+}, {
+	"nombreSala": "giroro",
+	"tipoPregunta": "texto",
+	"pregunta": "Nombre D Usuario no fue el único candidato a capitán que utilizó a Cthulhu en su campaña.",
+	"respuestas": [{
+		"textoRespuesta": "capitan mantarraya",
+		"nombreDestino": "chodi"
+	}, {
+		"textoRespuesta": "capitán mantarraya",
+		"nombreDestino": "pasado"
+	}]
+}, {
+	"nombreSala": "chodi",
+	"tipoPregunta": "texto",
+	"pregunta": "El barco más enfadado",
+	"respuestas": [{
+		"textoRespuesta": "Angry Franxo",
+		"nombreDestino": "suloku"
+	}]
+}, {
+	"nombreSala": "suloku",
+	"tipoPregunta": "puzzle",
+	"pregunta": "http://five.flash-gear.com/npuz/puz.php?c=f&o=1&id=4667576&k=19891649&s=30&w=570&h=330",
+	"width": "720",
+	"height": "480",
+	"puzName": "puz60970",
+	"respuestas": [{
+		"textoRespuesta": "238",
+		"nombreDestino": "aika"
+	}]
+}, {
+	"nombreSala": "aika",
+	"tipoPregunta": "texto",
+	"pregunta": "Me merezco estar aquí, en todas las salas de la cueva, en Pirateking o donde sea. Bueno, en One Piece no.",
+	"respuestas": [{
+		"textoRespuesta": "Pelagos",
+		"nombreDestino": "tonyro"
+	}]
+}, {
+	"nombreSala": "tonyro",
+	"tipoPregunta": "bombay",
+	"pregunta": "11842d614027086b5b185eca04aeb556",
+	"respuestas": [{
+		"textoRespuesta": "Gorgias",
+		"nombreDestino": "erickabron"
+	}]
+}, {
+	"nombreSala": "erickabron",
+	"tipoPregunta": "texto",
+	"pregunta": "“Pero si yo creía que tú eras asexual Marty, que sólo te gustaba ganar.”",
+	"respuestas": [{
+		"textoRespuesta": "Guirao",
+		"nombreDestino": "elensar"
+	}]
+}, {
+	"nombreSala": "elensar",
+	"tipoPregunta": "texto",
+	"pregunta": "Aquí los Berries no sirven.",
+	"respuestas": [{
+		"textoRespuesta": "Skypiea",
+		"nombreDestino": "janxus94"
+	}]
+}, {
+	"nombreSala": "janxus94",
+	"tipoPregunta": "texto",
+	"pregunta": "Tendrás que cambiar de divisa.",
+	"respuestas": [{
+		"textoRespuesta": "Extol",
+		"nombreDestino": "racso"
+	}]
+}, {
+	"nombreSala": "racso",
+	"tipoPregunta": "texto",
+	"pregunta": "Pero esas monedas son papel para nuestro suave y terso culo, que les den. Una banda de 12 tripulantes debe pagar una tasa de…",
+	"respuestas": [{
+		"textoRespuesta": "1200000 berries",
+		"nombreDestino": "rpg88"
+	}, {
+		"textoRespuesta": "1.200.000 berries",
+		"nombreDestino": "rpg88"
+	}, {
+		"textoRespuesta": "1200000",
+		"nombreDestino": "rpg88"
+	}, {
+		"textoRespuesta": "1.200.000",
+		"nombreDestino": "rpg88"
+	}]
+}, {
+	"nombreSala": "rpg88",
+	"tipoPregunta": "bombay",
+	"pregunta": "d0238f64965dc6ff2027f2f0a96e7edf",
+	"respuestas": [{
+		"textoRespuesta": "BlackSheep",
+		"nombreDestino": "playtio"
+	}]
+}, {
+	"nombreSala": "playtio",
+	"tipoPregunta": "imagen",
+	"pregunta": "http://imgur.com/ANRqIgC.gif",
+	"respuestas": [{
+		"textoRespuesta": "k72rg6",
+		"nombreDestino": "drakort"
+	}]
+}, {
+	"nombreSala": "drakort",
+	"tipoPregunta": "texto",
+	"pregunta": "Votadme (claro y conciso).",
+	"respuestas": [{
+		"textoRespuesta": "Eduardo Zaplana PP",
+		"nombreDestino": "gcvip"
+	}]
+}, {
+	"nombreSala": "gcvip",
+	"tipoPregunta": "imagen",
+	"pregunta": "https://s10.postimg.org/8gr00wtzd/Besis_De_Manzani.png",
+	"respuestas": [{
+		"textoRespuesta": "Besis de fresi",
+		"nombreDestino": "elpipa"
+	}]
+}, {
+	"nombreSala": "elpipa",
+	"tipoPregunta": "audio",
+	"pregunta": "http://vocaroo.com/player.swf?playMediaID=s1vshT3iRaem&autoplay=0",
+	"respuestas": [{
+		"textoRespuesta": "One day",
+		"nombreDestino": "itami"
+	}]
+}, {
+	"nombreSala": "itami",
+	"tipoPregunta": "texto",
+	"pregunta": "Principal cosplayer de la IV Guerra de Bandas.",
+	"respuestas": [{
+		"textoRespuesta": "Rodilla",
+		"nombreDestino": "julen"
+	}]
+}, {
+	"nombreSala": "julen",
+	"tipoPregunta": "imagen",
+	"pregunta": "http://i.imgur.com/xtbbIfd.png",
+	"respuestas": [{
+		"textoRespuesta": "48389",
+		"nombreDestino": "tazsumaro"
+	}, {
+		"textoRespuesta": "48.389",
+		"nombreDestino": "tazsumaro"
+	}]
+}, {
+	"nombreSala": "tazsumaro",
+	"tipoPregunta": "bombay",
+	"pregunta": "ec7a0e2a146823226a30afefa79c53b7",
+	"respuestas": [{
+		"textoRespuesta": "The Georgie Dann's Summer Hit",
+		"nombreDestino": "aniol"
+	}]
+}, {
+	"nombreSala": "aniol",
+	"tipoPregunta": "texto",
+	"pregunta": "El álter ego de cierto manga que una vez le asignaron a Zirika.",
+	"respuestas": [{
+		"textoRespuesta": "Naturezza",
+		"nombreDestino": "pamelachu"
+	}]
+}, {
+	"nombreSala": "pamelachu",
+	"tipoPregunta": "puzzle",
+	"pregunta": "http://two.flash-gear.com/npuz/puz.php?c=f&o=1&id=3354441&k=27757158&s=15&w=555&h=375",
+	"width": "705",
+	"height": "525",
+	"puzName": "puz250787",
+	"respuestas": [{
+		"textoRespuesta": "Vardek",
+		"nombreDestino": "oskarkill"
+	}]
+}, {
+	"nombreSala": "oskarkill",
+	"tipoPregunta": "imagen",
+	"pregunta": "http://i.imgur.com/Lu83wE4.png",
+	"respuestas": [{
+		"textoRespuesta": "…”ajaP ed orerbmoS” ed al se",
+		"nombreDestino": "sejmet"
+	}]
+}, {
+	"nombreSala": "sejmet",
+	"tipoPregunta": "picross",
+	"pregunta": "http://ichrisi.bizhat.com/custom_js/picross_play.html?20.20|606ceWH7ZwxZWqZZAZZTJKYSS7bA1DqZRf843rIQk2cnkEeH2RToDSkE452u1fC0j_0",
+	"respuestas": [{
+		"textoRespuesta": "Enel",
+		"nombreDestino": "reimy"
+	}]
+}, {
+	"nombreSala": "reimy",
+	"tipoPregunta": "texto",
+	"pregunta": "011001110110010110000000011100111000010001100101011110000110100110000011",
+	"respuestas": [{
+		"textoRespuesta": "Capitanes",
+		"nombreDestino": "hroth"
+	}, {
+		"textoRespuesta": "Puto Master",
+		"nombreDestino": "hroth"
+	}]
+}, {
+	"nombreSala": "hroth",
+	"tipoPregunta": "bombay",
+	"pregunta": "9b8e565092265353a35ad9c7313fb6b7",
+	"respuestas": [{
+		"textoRespuesta": "El Timón de la Fortuna",
+		"nombreDestino": "klix"
+	}]
+}, {
+	"nombreSala": "klix",
+	"tipoPregunta": "texto",
+	"pregunta": "Esta cueva ha sido construida gracias a esta niña.",
+	"respuestas": [{
+		"textoRespuesta": "Mocha",
+		"nombreDestino": "dreken"
+	}]
+}, {
+	"nombreSala": "dreken",
+	"tipoPregunta": "texto",
+	"pregunta": "Aqui! Aqui!! Mírame!! Estoy solo!!!",
+	"respuestas": [{
+		"textoRespuesta": "Ramsus",
+		"nombreDestino": "finalfantasy8"
+	}]
+}, {
+	"nombreSala": "finalfantasy8",
+	"tipoPregunta": "texto",
+	"pregunta": "Parece que estamos llegando al final, aquí sólo falta una cosa",
+	"respuestas": [{
+		"textoRespuesta": ".",
+		"nombreDestino": "villarinho"
+	}, {
+		"textoRespuesta": "punto",
+		"nombreDestino": "villarinho"
+	}]
+}, {
+	"nombreSala": "villarinho",
+	"tipoPregunta": "imagen",
+	"pregunta": "http://i.imgur.com/aWShLbz.png",
+	"respuestas": [{
+		"textoRespuesta": "p444044",
+		"nombreDestino": "vidaco"
+	}]
+}, {
+	"nombreSala": "vidaco",
+	"tipoPregunta": "imagen",
+	"pregunta": "http://i.imgur.com/p7iIJPu.png",
+	"respuestas": [{
+		"textoRespuesta": "p720938",
+		"nombreDestino": "bixinhoqrt"
+	}]
+}, {
+	"nombreSala": "bixinhoqrt",
+	"tipoPregunta": "texto",
+	"pregunta": "Chao.",
+	"respuestas": [{
+		"textoRespuesta": ":wave:",
+		"nombreDestino": "sherry"
+	}]
+}, {
+	"nombreSala": "sherry",
+	"tipoPregunta": "final",
+	"pregunta": "Final.",
+	"respuestas": [{
+		"textoRespuesta": "",
+		"nombreDestino": "fin"
+	}]
+}, {
+	"nombreSala": "Gramenawuer",
+	"tipoPregunta": "final",
+	"pregunta": "En construcción",
+	"respuestas": [{
+		"textoRespuesta": "",
+		"nombreDestino": "fin"
+	}]
+}]

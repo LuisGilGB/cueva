@@ -100,7 +100,10 @@ cuevaRouter.route('/:salaId/comprobarrespuesta/:respuesta').get(function (req, r
 					_id: siguienteSala._id,
 					nombreSala: siguienteSala.nombreSala,
 					tipoPregunta: siguienteSala.tipoPregunta,
-					pregunta: siguienteSala.pregunta
+					pregunta: siguienteSala.pregunta,
+						width: siguienteSala.width,
+						height: siguienteSala.height,
+						puzName: siguienteSala.puzName
 				}
 				return res.json(salaTrucada);
 			});
@@ -120,7 +123,10 @@ cuevaRouter.route('/:salaId/comprobarrespuesta/:respuesta').get(function (req, r
 						_id: siguienteSala._id,
 						nombreSala: siguienteSala.nombreSala,
 						tipoPregunta: siguienteSala.tipoPregunta,
-						pregunta: siguienteSala.pregunta
+						pregunta: siguienteSala.pregunta,
+						width: siguienteSala.width,
+						height: siguienteSala.height,
+						puzName: siguienteSala.puzName
 					}
 					return res.json(salaTrucada);
 				});
