@@ -24,7 +24,7 @@ router.get('/', function (req, res, next) {
 	res.end('Toma cueva');
 });*/
 
-cuevaRouter.route('/renovarbasededatos/').all(function (req, res, oncontextmenu) {
+/*cuevaRouter.route('/renovarbasededatos/').all(function (req, res, oncontextmenu) {
 	Salas.remove({}, function (err, resp) {
 		if (err) throw err;
 		fs.readFile('json/salas.json', 'utf-8', function (err, data) {
@@ -35,9 +35,9 @@ cuevaRouter.route('/renovarbasededatos/').all(function (req, res, oncontextmenu)
 
 				console.log('Sala creada');
 
-				/*res.writeHead(200, {
-					'Content-Type': 'application/'
-				});*/
+				//res.writeHead(200, {
+				//	'Content-Type': 'application/'
+				//});
 				res.json(salas);
 			});
 		});
@@ -70,7 +70,7 @@ cuevaRouter.route('/administrador/').get(function (req, res, next) {
 		//if (err) throw err;
 		res.json(resp);
 	});
-});
+});*/
 
 cuevaRouter.route('/empezarcueva/').get(function (req, res, next) {
 	//console.log('HAZ PUTO ALGO')
