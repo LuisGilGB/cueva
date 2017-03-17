@@ -36,6 +36,9 @@ var salaSchema = new Schema({
 	},
 	puzName: {
 		type: String
+	},
+	videoFinal: {
+		type: String
 	}
 }, {
 	timestamps: true
