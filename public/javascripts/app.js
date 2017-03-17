@@ -76,7 +76,13 @@ angular.module('cuevaApp', ['ngSanitize'])
 				if (acertijo.tipoPregunta === 'final') {
 					$scope.cleanAll();
 					$scope.acertijo = null;
-					urlAuxiliar = '<iframe width="560" height="315" src="https://www.youtube.com/embed/' + acertijo.videoFinal + '" frameborder="0" allowfullscreen></iframe>';
+					var apanho;
+					if (acertijo.videoFinal) {
+						apanho = acertijo.videoFinal;
+					} else {
+						apanho = acertijo.pregunta
+					}
+					urlAuxiliar = '<iframe width="560" height="315" src="https://www.youtube.com/embed/' + apanho + '" frameborder="0" allowfullscreen></iframe>';
 					$scope.respuestaVideoFinalUrl = $sce.trustAsHtml(urlAuxiliar);
 					$scope.isFinal = true;
 					$scope.resultado = 'Enhorabuena, has salido de la cueva';
