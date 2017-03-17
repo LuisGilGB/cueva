@@ -15,6 +15,9 @@ angular.module('cuevaApp', ['ngSanitize'])
 		$scope.isIframe = false;
 		$scope.isPuzzle = false;
 		$scope.isBombay = false;
+		$scope.isFinal = false;
+		
+		$scope.respuestaVideoFinalUrl = null;
 		
 		$scope.currentIndex = 0;
 		
@@ -72,6 +75,9 @@ angular.module('cuevaApp', ['ngSanitize'])
 				$scope.acertijo = acertijo.pregunta;
 				if (acertijo.tipoPregunta === 'final') {
 					$scope.cleanAll();
+					urlAuxiliar = '<iframe width="560" height="315" src="https://www.youtube.com/embed/' + acertijo.pregunta + '" frameborder="0" allowfullscreen></iframe>';
+					$scope.respuestaVideoFinalUrl = $sce.trustAsHtml(urlAuxiliar);
+					$scope.isFinal = true;
 					$scope.resultado = 'Enhorabuena, has salido de la cueva';
 				}
 			} else if (acertijo.tipoPregunta === 'imagen') {
