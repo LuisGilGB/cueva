@@ -101,9 +101,10 @@ cuevaRouter.route('/:salaId/comprobarrespuesta/:respuesta').get(function (req, r
 					nombreSala: siguienteSala.nombreSala,
 					tipoPregunta: siguienteSala.tipoPregunta,
 					pregunta: siguienteSala.pregunta,
-						width: siguienteSala.width,
-						height: siguienteSala.height,
-						puzName: siguienteSala.puzName
+					width: siguienteSala.width,
+					height: siguienteSala.height,
+					puzName: siguienteSala.puzName,
+					videoFinal: siguienteSala.videoFinal
 				}
 				return res.json(salaTrucada);
 			});
@@ -126,7 +127,8 @@ cuevaRouter.route('/:salaId/comprobarrespuesta/:respuesta').get(function (req, r
 						pregunta: siguienteSala.pregunta,
 						width: siguienteSala.width,
 						height: siguienteSala.height,
-						puzName: siguienteSala.puzName
+						puzName: siguienteSala.puzName,
+						videoFinal: siguienteSala.videoFinal
 					}
 					return res.json(salaTrucada);
 				});
